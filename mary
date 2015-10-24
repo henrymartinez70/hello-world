@@ -1,0 +1,21 @@
+print('What is up!')
+print('What is your name?')     # ask for their name
+myName = input()
+if myName == 'Mary':            # user will input name
+    print('Hello Mary')
+else:
+    print('Hello, stranger')    # if not Mary, different greeting
+    
+print('How old are you?')
+myAge = input()
+if myAge == '12':
+    print('Well, that is good to know.')
+elif myAge < '12':
+    print('You are not Mary, imposter!')
+    
+print('What is your password?')
+myPassword = input()
+if myPassword == 'swordfish':
+    print('Access granted.')
+else:
+    print('Try again, buster.')
